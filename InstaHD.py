@@ -127,7 +127,7 @@ def login_dev():
 	global cookie
 	os.system("clear")
 	logo()
-	print "  [ login akun instagram untuk lanjut ]"
+	
 	username_dev = raw_input("\n [?] username instagram : ")
 	pass_dev = raw_input(" [?] password instagram : ")
 	try:
