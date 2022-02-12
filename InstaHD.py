@@ -116,7 +116,7 @@ def cek_login():
 				if "users" in json.loads(login_coki.content):
 					cookie = {"cookie": cok}
 				else:
-					print"\n %s[!] akun terkena checkpoint!"%(M)
+
 					hapus_cookie()
 					login_dev()	
 			except ValueError:
